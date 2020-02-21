@@ -42,7 +42,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.githubpages',
-    'recommonmark',
+    #'recommonmark',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
