@@ -1,10 +1,11 @@
 language: python
 
 install:
-- pip install sphinx sphinx_rtd_theme mock
+- pip install sphinx sphinx_rtd_theme mock recommonmark
+
 
 script:
-- sphinx-build -Wv docs/source docs/html
+- sphinx-build -Wv docs/source docs/build/html
 
 deploy:
 # publish docs on push
@@ -12,6 +13,6 @@ deploy:
   skip_cleanup: true
   keep-history: false
   github_token: $GH_TOKEN
-  local_dir: docs/html
-  on:
-    branch:  gh-pages
+  local_dir: docs/build/html
+  #on:
+    #branch:  gh-pages
