@@ -10,8 +10,8 @@ Welcome to factory42docs's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   RepRap Firmware/Tool Changing
-   Mesa & LinuxCNC configuration/Setup 
+   RepRapFirmware/Tool Changing
+   LinuxCNC/Mesa/configuration 
 
 
 
